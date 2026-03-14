@@ -134,3 +134,26 @@ lib/
 packages/
   design_system/       # Standalone design system package
 ```
+
+## Time Log
+
+| Phase | Time |
+|---|---|
+| Planning & architecture | ~1h 15 min |
+| Project setup & mock server | ~9 min |
+| Core config + domain + data layers | ~6 min |
+| Design system (tokens + components) | ~6 min |
+| BLoC + state management | ~2 min |
+| UI (scoreboard, detail, app shell) | ~6 min |
+| Tests | ~7 min |
+| Documentation | ~3 min |
+| **Total** | **~2 hours** |
+
+## AI Usage
+
+Claude Code was used as a coding assistant throughout the project for:
+- Scaffolding the initial architecture and folder structure
+- Implementing design system tokens and component hierarchy
+- AnimatedList with SizeTransition for event timeline
+- Project audit for magic numbers and design system compliance
+- Writing architecture documentation
