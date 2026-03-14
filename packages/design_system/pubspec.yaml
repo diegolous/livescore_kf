@@ -1,0 +1,13 @@
+name: design_system
+description: LiveScore design system with tokens, atoms, molecules, and organisms.
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: ^3.10.4
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cached_network_image: ^3.4.1
